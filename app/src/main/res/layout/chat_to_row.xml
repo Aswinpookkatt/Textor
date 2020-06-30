@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/twMessage"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="10dp"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:layout_toLeftOf="@id/circularImgViewTo"
+        android:background="@drawable/rounded_et_message"
+        app:layout_constraintStart_toEndOf="@+id/circularImgView"
+        app:layout_constraintTop_toTopOf="@+id/circularImgView" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circularImgViewTo"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="14dp"
+        android:background="@drawable/rounded_gray_et" />
+
+
+
+</RelativeLayout>

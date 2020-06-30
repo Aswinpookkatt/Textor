@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".registerlogin.MainActivity">
+
+    <TextView
+        android:id="@+id/tw_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:letterSpacing=".5"
+        android:padding="15dp"
+        android:text="TEXTOR"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnImgUser"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/tw_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:height="160dp"
+        android:background="@drawable/rounded_btn_img"
+        android:text="Tap to select Image"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+
+        />
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnImgUser"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_et"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etName"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_et"
+        android:ems="10"
+        android:hint="Email "
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmail"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_et"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPassword"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_button"
+        android:padding="8dp"
+        android:text="Register"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/twSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegister"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="Already have an account ?"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circularImgView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/tw_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>
