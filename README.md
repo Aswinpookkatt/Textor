@@ -1,3 +1,3 @@
 # Textor
  This is a Kotlin - Firebase Chat Application
- ![Screenshot](../master/readme data/2.jpg)
+![alt text](https://github.com/aswinpookkatt/Textor/readme data/1.jpg?raw=true)
